@@ -54,8 +54,7 @@
   },
   "scripts": {
     "format": "prettier --write './{src,test}/**/*.{js,json}'",
-    "lint": "eslint './{src,test}/**/*.js'",
-    "prepublishOnly": "npm run build"
+    "lint": "eslint './{src,test}/**/*.js'"
   },
   "husky": {
     "hooks": {
