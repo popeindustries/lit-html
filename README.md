@@ -43,7 +43,7 @@ render(Body({ title: 'hi!', text: 'some text', invertedText: false }), document.
 
 ```js
 import { Body } from './body.js';
-import { html, renderToString } from '@popeindustries/lit-html';
+import { html, renderToStream } from '@popeindustries/lit-html';
 import http from 'http';
 
 http.createServer((request, response) => {
