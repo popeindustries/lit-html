@@ -33,6 +33,7 @@
     "./directives/until.js": "./browser/directives/until.js",
     "./directives/until.mjs": "./browser/directives/until.js"
   },
+  "types": "index.d.ts",
   "repository": "https://github.com/popeindustries/lit-html.git",
   "author": "Alexander Pope <alex@pope-industries.com>",
   "license": "MIT",
