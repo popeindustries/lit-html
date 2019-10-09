@@ -1,6 +1,6 @@
 {
   "name": "@popeindustries/lit-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Seamlessly render lit-html templates on the server and in the browser",
   "keywords": [
     "html template",
