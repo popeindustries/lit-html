@@ -2,6 +2,7 @@
   "name": "@popeindustries/lit-html",
   "version": "1.0.2",
   "description": "Seamlessly render lit-html templates on the server and in the browser",
+  "author": "Alexander Pope <alex@pope-industries.com>",
   "keywords": [
     "html template",
     "lit-html",
@@ -16,6 +17,8 @@
     "./index.mjs": "./browser/index.js",
     "./directives/async-append.js": "./browser/directives/async-append.js",
     "./directives/async-append.mjs": "./browser/directives/async-append.js",
+    "./directives/async-repeat.js": "./browser/directives/async-repeat.js",
+    "./directives/async-repeat.mjs": "./browser/directives/async-repeat.js",
     "./directives/cache.js": "./browser/directives/cache.js",
     "./directives/cache.mjs": "./browser/directives/cache.js",
     "./directives/class-map.js": "./browser/directives/class-map.js",
@@ -35,25 +38,24 @@
   },
   "types": "index.d.ts",
   "repository": "https://github.com/popeindustries/lit-html.git",
-  "author": "Alexander Pope <alex@pope-industries.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "@popeindustries/lit-html-server": "^1.3.0",
-    "lit-html": "^1.1.0"
-  },
-  "devDependencies": {
-    "@popeindustries/lit-html-server": "^1.4.1",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.1.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "husky": "^3.0.2",
-    "lint-staged": "^9.2.1",
-    "lit-html": "^1.1.2",
-    "prettier": "^1.17.1"
-  },
   "engines": {
     "node": ">=10"
+  },
+  "peerDependencies": {
+    "@popeindustries/lit-html-server": "^1.6.1",
+    "lit-html": "^1.1.2"
+  },
+  "devDependencies": {
+    "@popeindustries/lit-html-server": "^1.6.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.0.10",
+    "lint-staged": "^9.5.0",
+    "lit-html": "^1.1.2",
+    "prettier": "^1.19.1"
   },
   "scripts": {
     "format": "prettier --write './{src,test}/**/*.{js,json}'",
