@@ -1,6 +1,10 @@
 declare module '@popeindustries/lit-html' {
   export * from 'lit-html';
-  export { renderToBuffer, renderToStream, renderToString } from '@popeindustries/lit-html-server';
+  export {
+    renderToBuffer,
+    renderToStream,
+    renderToString
+  } from '@popeindustries/lit-html/browser/index.js';
 }
 
 declare module '@popeindustries/lit-html/directives/async-append.js' {
