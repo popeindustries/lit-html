@@ -17,8 +17,10 @@ export function renderToStream(result) {
   }
   return new ReadableStream({
     start(controller) {
-      controller.enqueue(renderToBuffer(result));
-      controller.close();
+      renderToBuffer(result).then((buffer) => {
+        controller.enqueue(buffer);
+        controller.close();
+      });
     }
   });
 }
@@ -26,22 +28,22 @@ export function renderToStream(result) {
 /**
  * lit-html-server API parity
  * @param {import('lit-html').TemplateResult} result
- * @returns {Uint8Array}
+ * @returns {Promise<Uint8Array>}
  */
-export function renderToBuffer(result) {
+export async function renderToBuffer(result) {
   if (typeof TextEncoder === 'undefined') {
     throw Error('TextEncoder not supported on this platform');
   }
-  return new TextEncoder().encode(renderToString(result));
+  return new TextEncoder().encode(await renderToString(result));
 }
 
 /**
  * lit-html-server API parity
  * @param {import('lit-html').TemplateResult} result
- * @returns {string} html string
+ * @returns {Promise<string>} html string
  */
 export function renderToString(result) {
   render(result, RENDER_ELEMENT);
   const htmlString = RENDER_ELEMENT.innerHTML;
-  return htmlString;
+  return Promise.resolve(htmlString);
 }

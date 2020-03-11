@@ -1,1 +1,1 @@
-export * from '@popeindustries/lit-html-server/index.mjs';
+export * from '@popeindustries/lit-html-server';
