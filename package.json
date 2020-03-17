@@ -1,6 +1,6 @@
 {
   "name": "@popeindustries/lit-html",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "Seamlessly render lit-html templates on the server and in the browser",
   "author": "Alexander Pope <alex@pope-industries.com>",
   "keywords": [
