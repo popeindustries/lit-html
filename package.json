@@ -43,11 +43,11 @@
     "node": ">=10"
   },
   "peerDependencies": {
-    "@popeindustries/lit-html-server": "^2.0.0",
+    "@popeindustries/lit-html-server": "^3.0.0",
     "lit-html": "^1.1.2"
   },
   "devDependencies": {
-    "@popeindustries/lit-html-server": "^2.0.0",
+    "@popeindustries/lit-html-server": "^3.0.0",
     "babel-eslint": "^10.0.1",
     "dvlp": "^7.5.2",
     "eslint": "^6.8.0",
