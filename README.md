@@ -2,7 +2,7 @@
 
 # @popeindustries/lit-html
 
-Seamlessly render the same **lit-html** templates on the server and in the browser. This project is a wrapper around [**lit-html**](https://polymer.github.io/lit-html/) and [**@popeindustries/lit-html-server**](https://github.com/popeindustries/lit-html-server) to handle import aliasing.
+Seamlessly render the same **lit-html** templates on the server and in the browser. This project is a wrapper around [**lit-html**](https://lit-html.polymer-project.org/) and [**@popeindustries/lit-html-server**](https://github.com/popeindustries/lit-html-server) to handle import aliasing.
 
 > Until there is a standard technique for establishing environment specific import aliases, this library uses the unoffical `package.json#browser` field, currently supported by all major bundler tools.
 
