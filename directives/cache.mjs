@@ -1,1 +1,1 @@
-export * from '@popeindustries/lit-html-server/directives/cache.mjs';
+export * from '@popeindustries/lit-html-server/directives/cache.js';

@@ -1,1 +1,1 @@
-export * from '@popeindustries/lit-html-server/directives/unsafe-html.mjs';
+export * from '@popeindustries/lit-html-server/directives/unsafe-html.js';

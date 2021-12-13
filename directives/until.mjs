@@ -1,1 +1,1 @@
-export * from '@popeindustries/lit-html-server/directives/until.mjs';
+export * from '@popeindustries/lit-html-server/directives/until.js';

@@ -1,1 +1,1 @@
-export * from '@popeindustries/lit-html-server/directives/guard.mjs';
+export * from '@popeindustries/lit-html-server/directives/guard.js';

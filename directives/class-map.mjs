@@ -1,1 +1,1 @@
-export * from '@popeindustries/lit-html-server/directives/class-map.mjs';
+export * from '@popeindustries/lit-html-server/directives/class-map.js';

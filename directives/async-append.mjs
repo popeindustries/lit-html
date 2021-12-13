@@ -1,1 +1,1 @@
-export * from '@popeindustries/lit-html-server/directives/async-append.mjs';
+export * from '@popeindustries/lit-html-server/directives/async-append.js';
