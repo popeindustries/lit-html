@@ -4,9 +4,9 @@
  * Tests are based on @popeindustries/lit-html-server browser tests
  */
 
-import { asyncTests } from './test-render-async';
-import { attributeTests } from './test-render-attributes';
-import { syncTests } from './test-render-text';
+import { asyncTests } from './test-render-async.js';
+import { attributeTests } from './test-render-attributes.js';
+import { syncTests } from './test-render-text.js';
 
 describe('Browser template render', () => {
   syncTests();

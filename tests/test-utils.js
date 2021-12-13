@@ -1,6 +1,6 @@
 /* eslint no-constant-condition:0 no-async-promise-executor:0 */
 
-import { renderToString as rts } from '../index';
+import { renderToString as rts } from '@popeindustries/lit-html';
 
 // needed as lit-html pre- and postfixes DOM with `<!---->`
 function removeComments(htmlString) {

@@ -1,10 +1,10 @@
 /* global chai */
 // @ts-nocheck
 
-import { createAsyncIterable, getStream, renderToString } from './test-utils';
-import { html as h, renderToStream } from '../index';
-import { asyncAppend } from '../directives/async-append.js';
-import { until } from '../directives/until';
+import { createAsyncIterable, getStream, renderToString } from './test-utils.js';
+import { html as h, renderToStream } from '@popeindustries/lit-html';
+import { asyncAppend } from '@popeindustries/lit-html/directives/async-append.js';
+import { until } from '@popeindustries/lit-html/directives/until.js';
 const { expect } = chai;
 
 export const asyncTests = () =>

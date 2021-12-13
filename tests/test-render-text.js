@@ -1,9 +1,9 @@
 /* global chai */
 // @ts-nocheck
 
-import { getStream, renderToString } from './test-utils';
-import { html as h, renderToStream } from '../index';
-import { until } from '../directives/until';
+import { getStream, renderToString } from './test-utils.js';
+import { html as h, renderToStream } from '@popeindustries/lit-html';
+import { until } from '@popeindustries/lit-html/directives/until.js';
 const { expect } = chai;
 
 export const syncTests = () =>

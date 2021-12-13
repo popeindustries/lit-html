@@ -1,8 +1,8 @@
 /* global chai */
 // @ts-nocheck
 
-import { getStream, renderToString } from './test-utils';
-import { html as h, renderToStream } from '../index';
+import { getStream, renderToString } from './test-utils.js';
+import { html as h, renderToStream } from '@popeindustries/lit-html';
 const { expect } = chai;
 
 export const attributeTests = () =>
