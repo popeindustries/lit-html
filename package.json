@@ -16,57 +16,68 @@
     ".": {
       "browser": "./browser/index.js",
       "import": "./index.mjs",
-      "require": "./index.js"
+      "require": "./index.js",
+      "types": "./index.d.ts"
     },
     "./directives/async-append.js": {
       "browser": "./browser/directives/async-append.js",
       "import": "./directives/async-append.mjs",
-      "require": "./directives/async-append.js"
+      "require": "./directives/async-append.js",
+      "types": "./directives/async-append.d.ts"
     },
     "./directives/async-replace.js": {
       "browser": "./browser/directives/async-replace.js",
       "import": "./directives/async-replace.mjs",
-      "require": "./directives/async-replace.js"
+      "require": "./directives/async-replace.js",
+      "types": "./directives/async-replace.d.ts"
     },
     "./directives/cache.js": {
       "browser": "./browser/directives/cache.js",
       "import": "./directives/cache.mjs",
-      "require": "./directives/cache.js"
+      "require": "./directives/cache.js",
+      "types": "./directives/cache.d.ts"
     },
     "./directives/class-map.js": {
       "browser": "./browser/directives/class-map.js",
       "import": "./directives/class-map.mjs",
-      "require": "./directives/class-map.js"
+      "require": "./directives/class-map.js",
+      "types": "./directives/class-map.d.ts"
     },
     "./directives/guard.js": {
       "browser": "./browser/directives/guard.js",
       "import": "./directives/guard.mjs",
-      "require": "./directives/guard.js"
+      "require": "./directives/guard.js",
+      "types": "./directives/guard.d.ts"
     },
     "./directives/if-defined.js": {
       "browser": "./browser/directives/if-defined.js",
       "import": "./directives/if-defined.mjs",
-      "require": "./directives/if-defined.js"
+      "require": "./directives/if-defined.js",
+      "types": "./directives/if-defined.d.ts"
     },
     "./directives/repeat.js": {
       "browser": "./browser/directives/repeat.js",
       "import": "./directives/repeat.mjs",
-      "require": "./directives/repeat.js"
+      "require": "./directives/repeat.js",
+      "types": "./directives/repeat.d.ts"
     },
     "./directives/style-map.js": {
       "browser": "./browser/directives/style-map.js",
       "import": "./directives/style-map.mjs",
-      "require": "./directives/style-map.js"
+      "require": "./directives/style-map.js",
+      "types": "./directives/style-map.d.ts"
     },
     "./directives/unsafe-html.js": {
       "browser": "./browser/directives/unsafe-html.js",
       "import": "./directives/unsafe-html.mjs",
-      "require": "./directives/unsafe-html.js"
+      "require": "./directives/unsafe-html.js",
+      "types": "./directives/unsafe-html.d.ts"
     },
     "./directives/until.js": {
       "browser": "./browser/directives/until.js",
       "import": "./directives/until.mjs",
-      "require": "./directives/until.js"
+      "require": "./directives/until.js",
+      "types": "./directives/until.d.ts"
     }
   },
   "repository": "https://github.com/popeindustries/lit-html.git",
@@ -80,14 +91,14 @@
   },
   "devDependencies": {
     "@popeindustries/lit-html-server": "^4.0.1",
-    "dvlp": "^14.1.1",
-    "eslint": "^8.4.1",
-    "eslint-config-prettier": "^8.3.0",
+    "dvlp": "^14.2.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.1.2",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.1",
     "lit-html": "^1.4.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.7.1"
   },
   "scripts": {
     "test": "dvlp tests"
