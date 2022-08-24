@@ -1,4 +1,5 @@
-[![NPM Version](https://img.shields.io/npm/v/@popeindustries/lit-html.svg?style=flat)](https://npmjs.org/package/@popeindustries/lit-html)
+> **Warning**
+> Moved to [@popeindustries/lit](https://github.com/popeindustries/lit) repo
 
 # @popeindustries/lit-html
 
